@@ -1,4 +1,4 @@
-# BoxExmple
+# Box Example
 
 UI Assessment Test Solution
 
@@ -9,9 +9,9 @@ https://github.com/ui-test/sse
 
 # Technology used in project :
 
--Angular version 9.0.0.
--Html
--Sass
+- Angular version 9.0.0.
+- Html
+- Sass
 
 ## Install project
 
