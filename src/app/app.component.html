@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Box exmple</title>
+</head>
+
+<body>
+  <div *ngIf="isResetLinkVisiable()"><a (click)="resetBoxData()" href="javascript:void(0);">Reset Box Design</a></div>
+  <div class="outer-box">
+    <app-inner-box *ngIf="boxVisibilityArray[0]" [boxId]="1"></app-inner-box>
+    <app-inner-box *ngIf="boxVisibilityArray[1]" [boxId]="2"></app-inner-box>
+    <app-inner-box *ngIf="boxVisibilityArray[2]" [boxId]="3"></app-inner-box>
+    <app-inner-box *ngIf="boxVisibilityArray[3]" [boxId]="4"></app-inner-box>
+  </div>
+
+</body>
+
+</html>
